@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	margin: 0 auto;
+}
+
+button {
+	margin: .5rem;
+	padding: 0.2rem;
+	cursor: pointer;
+	width: 15rem;
+	font-size: 1.5rem;
+	background-color: #ff8baf;
+	border: none;
+}
+
+button:hover {
+	background-color: #f53571;
+	transform: scale(1.1);
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.aaa {
+	background-color: #a88afa;
+	width: 20rem;
+	padding: 1rem;
+	margin: .5rem;
+	text-align: center;
+}
+
+p {
+	font-size: .7rem;
+	margin: .2rem 0;
+}
+
+#bbb {
+	border: 2px dashed #f53571;
+	width: 17rem;
+	margin: .5rem auto;
+	padding: .5rem;
+}
+
+@media (min-width: 800px) {
+	.aaa {
+		float: left;
+		width: 23rem;
+		margin: 1rem;
+	}
+}
